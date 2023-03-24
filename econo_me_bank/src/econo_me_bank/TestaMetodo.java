@@ -30,6 +30,10 @@ public class TestaMetodo {
 		
 		System.out.println(contaDaNivea.saldo);
 		System.out.println(contaDoGustavo.saldo);
+		
+		
+		contaDoGustavo.titular = "Gustavo Oliveira";
+		System.out.println("Dono da conta: "+ contaDoGustavo.titular);
 
 	}
 }

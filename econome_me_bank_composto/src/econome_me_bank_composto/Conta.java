@@ -1,10 +1,10 @@
-package econo_me_bank;
+package econome_me_bank_composto;
 
 public class Conta {
 	double saldo;
 	int agencia;
 	int numero;
-	String titular;
+	Cliente titular;
 
 
 	public void deposita(double valor) {
